@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyMcpServer", "MyMcpServer\MyMcpServer.fsproj", "{CD435D80-0C4C-465E-8600-14668EB2C77E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyMcpServer.Test", "MyMcpServer.Test\MyMcpServer.Test.fsproj", "{08E9958C-839D-46B0-BDF6-3DA827B053B7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyMcpServer.Common", "MyMcpServer.Common\MyMcpServer.Common.fsproj", "{0C8B06B9-699C-4501-945A-19F10753AA5B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyMcpServer.JsonRpc.Test", "MyMcpServer.JsonRpc.Test\MyMcpServer.JsonRpc.Test.fsproj", "{520A1EA1-04F9-4289-9F3D-E2252D22BD07}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyMcpServer.JsonRpc", "MyMcpServer.JsonRpc\MyMcpServer.JsonRpc.fsproj", "{D7FE8816-C593-4C00-AE20-5C1DBDA0B326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{EA46EFA1-94B2-48EA-BB46-FBE68312B601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD435D80-0C4C-465E-8600-14668EB2C77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD435D80-0C4C-465E-8600-14668EB2C77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD435D80-0C4C-465E-8600-14668EB2C77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD435D80-0C4C-465E-8600-14668EB2C77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E9958C-839D-46B0-BDF6-3DA827B053B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E9958C-839D-46B0-BDF6-3DA827B053B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E9958C-839D-46B0-BDF6-3DA827B053B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E9958C-839D-46B0-BDF6-3DA827B053B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8B06B9-699C-4501-945A-19F10753AA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8B06B9-699C-4501-945A-19F10753AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8B06B9-699C-4501-945A-19F10753AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8B06B9-699C-4501-945A-19F10753AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520A1EA1-04F9-4289-9F3D-E2252D22BD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520A1EA1-04F9-4289-9F3D-E2252D22BD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520A1EA1-04F9-4289-9F3D-E2252D22BD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520A1EA1-04F9-4289-9F3D-E2252D22BD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FE8816-C593-4C00-AE20-5C1DBDA0B326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FE8816-C593-4C00-AE20-5C1DBDA0B326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FE8816-C593-4C00-AE20-5C1DBDA0B326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FE8816-C593-4C00-AE20-5C1DBDA0B326}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08E9958C-839D-46B0-BDF6-3DA827B053B7} = {EA46EFA1-94B2-48EA-BB46-FBE68312B601}
+		{520A1EA1-04F9-4289-9F3D-E2252D22BD07} = {EA46EFA1-94B2-48EA-BB46-FBE68312B601}
+	EndGlobalSection
+EndGlobal
