@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="JsonStreamReader.fs" />
+        <Compile Include="JsonStreamWriter.fs" />
+        <Compile Include="JsonRpc.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Control.AsyncSeq" Version="3.2.1" />
+      <PackageReference Include="FSharp.Data" Version="6.6.0" />
+      <PackageReference Include="FSharpPlus" Version="1.7.0" />
+      <PackageReference Include="FSharpx.Extras" Version="3.3.0" />
+      <PackageReference Include="FsToolkit.ErrorHandling" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyMcpServer.Common\MyMcpServer.Common.fsproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+        <GenerateProgramFile>false</GenerateProgramFile>
+        <IsTestProject>true</IsTestProject>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="FSharp.Control.AsyncSeq" Version="3.2.1" />
+        <PackageReference Include="FSharpPlus" Version="1.7.0" />
+        <PackageReference Include="FSharpx.Extras" Version="3.3.0" />
+        <PackageReference Include="FsToolkit.ErrorHandling" Version="5.0.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
+        <PackageReference Include="xunit" Version="2.5.3"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="Async.fs" />
+      <Compile Include="Reflection.fs" />
+      <Compile Include="Guard.fs" />
+      <Compile Include="TextReader.fs" />
+      <Compile Include="Memory.fs" />
+      <Compile Include="AsyncEnumerator.fs" />
+      <Compile Include="AsyncSeq.fs" />
+      <Compile Include="TimeoutToken.fs" />
+      <Compile Include="Operators.fs" />
+      <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
